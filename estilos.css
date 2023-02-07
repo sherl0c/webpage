@@ -1,0 +1,271 @@
+    .body{
+        font-family: 'Ruluko', sans-serif;
+        font-size: x-large;
+        background: linear-gradient(to right, #0B0F13,#0d1116 , #160D11, #10071c);
+    }
+
+    #container{
+        width: 80%;
+        margin: 0px auto;
+        height: auto;
+    }
+    .flexbox{
+        background:#0A0D11;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        border-radius: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .neonText {
+        animation: flicker 1.5s infinite alternate;
+        color: #fff;
+        vertical-align: middle;
+      }
+
+@keyframes flicker {
+    
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      
+            text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #8f52eb,
+            0 0 80px #8f52eb,
+            0 0 90px #8f52eb,
+            0 0 100px #8f52eb,
+            0 0 150px #8f52eb;
+        
+        }
+        
+        20%, 24%, 55% {        
+            text-shadow: none;
+        }    
+
+  }
+hr{
+    display:flex;
+    align-items: center;
+    width: 40%;
+    border: 5px solid #754D9D;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fff;
+    padding: 0;
+    animation: glow 1.5s ease-in-out infinite;
+    -webkit-animation: glow 1.5s ease-in-out infinite;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}hr::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #222;
+    width: 20%;
+    margin: -2px 50px;
+    border-radius: 2px;
+    box-shadow: 0 0 3px black;
+    animation: glowMinr 2s ease-in-out;
+    -webkit-animation: glowMinor 1.5s ease-in-out infinite 
+  }
+  @keyframes glow {
+    0%{box-shadow: 0 0 2px #4A247A;}
+    50%{box-shadow: 0 0 8px #977EB8;}
+    100%{box-shadow: 0 0 2px #4A247A;}
+  }
+  
+  @-webkit-keyframes glow {
+    0%{box-shadow: 0 0 2px #522888;}
+    50%{box-shadow: 0 0 8px #977EB8;}
+    100%{box-shadow: 0 0 2px #4A247A;}
+  }
+  
+  @keyframes glowMinor {
+    0%{box-shadow: 0 0 2px black;}
+    50%{box-shadow: 0 0 8px black;}
+    100%{box-shadow: 0 0 2px black;}
+  }
+  
+  @-webkit-keyframes glowMinor {
+    0%{box-shadow: 0 0 2px black;}
+    50%{box-shadow: 0 0 8px black;}
+    100%{box-shadow: 0 0 2px black;}
+  }
+
+
+
+    nav{
+        color: #072227;
+    }
+    
+    aside{
+        opacity:0.3;
+        transition: opacity 0.8s ease-in-out;
+
+        margin-left: 5cm;
+        color: #D6D5C9;
+        background: #0d1017;;
+        font-size: larger;
+        text-align: center;
+        width: 23%;
+        min-height: 1000px;
+        border-radius: 25px;
+        float:right;
+        box-shadow:
+        11px 0 4px  -12px  #fff,
+        11px 0 8px  -12px  #fff,
+        11px 0 7px  -12px  #D6D5C9,
+        11px 0 9px  -12px  #D6D5C9,
+        11px 0 10px -12px  #D6D5C9,
+        11px 0 15px -12px  #D6D5C9,
+        11px 0 30px -12px  #D6D5C9,
+        11px 0 35px -12px  #D6D5C9,
+        11px 0 42px -12px  #D6D5C9;
+        font-family: 'Ruluko', sans-serif;
+        padding: 0.5cm ;
+
+    }
+    aside:hover{
+        opacity:1;
+
+    }
+    h4{
+        text-align: left;
+        color: #a5afb6;
+    }
+
+    
+    h3{
+        text-align: center;
+        color:#ffffff;
+        text-shadow:
+            0 0 7px #D6D5C9,
+            0 0 10px #D6D5C9,
+            0 0 21px #D6D5C9,
+            0 0 42px #a5afb6,
+            0 0 82px #BF9553,
+            0 0 92px #BF9553,
+            0 0 102px #BF9553,
+            0 0 151px #BF9553;
+    }
+
+    .textoneon2{
+        color: #fff;
+        text-shadow:
+        0 0 7px #D6D5C9,
+        0 0 10px #D6D5C9,
+        0 0 21px #D6D5C9,
+        0 0 42px #BF9553,
+        0 0 82px #BF9553,
+        0 0 92px #BF9553,
+        0 0 102px #BF9553,
+        0 0 151px #BF9553;
+    }
+
+    h1{
+        font-size: 4.2rem;  
+    }
+
+    #content{
+        opacity:0.3;
+        transition: opacity 0.8s ease-in-out;
+        
+        font-size: 2.2rem;
+        float: top;
+        width: 67%;
+        background:#0d1017;
+        color: #B97F24;
+        border-radius: 25px;
+        margin-right: 0cm;
+        height: 700px;
+        padding: 0.5cm ;
+        text-shadow:
+        0  0 2px #fff,
+         0 0 3px #fff,
+         0 0 7px #B97F24,
+         0 0 10px #B97F24;
+        box-shadow:
+        -11px 0 4px  -10px #fff,
+        -11px 0 8px  -10px #ffffff,
+        -11px 0 7px  -10px #6017c0,
+        -11px 0 9px  -10px #522888,
+        -11px 0 10px -10px #8a4acb,
+        -11px 0 15px -10px #754D9D,
+        -11px 0 30px -10px #754D9D,
+        -11px 0 35px -10px #6d4a90,
+        -11px 0 42px -10px #6d4a90;
+    }
+    #content:hover{
+        opacity:1;
+
+    }
+    
+    #grafico_de_mi_presonalidad{
+        color: #8f52eb;
+        box-shadow: 
+        -11px 0 4px  -10px #fff,
+        -11px 0 8px  -10px #B97F24,
+        -11px 0 7px  -10px #B97F24,
+        -11px 0 9px  -10px #B97F24,
+        -11px 0 10px -10px #B97F24,
+        -11px 0 15px -10px #B97F24,
+        -11px 0 30px -10px #B97F24,
+        -11px 0 35px -10px #B97F24,
+        -11px 0 42px -10px #B97F24;
+        border-radius: 25px;
+        
+
+    }
+
+    a{
+        color: #cab187;
+        text-shadow:
+        0 0 2px #fff,
+        0 0 5px #BF9553,
+        0 0 6px #B97F24,
+        0 0 8px #B97F24;
+        text-decoration: none;
+        animation: flicker 0.002s ease-in-out infinite alternate;
+        font-size:xx-large;
+
+    }
+    time{
+     color:#484e56 ;  
+    }
+
+    footer{
+        color: black;
+        font-size: x-small;
+        font-family: 'Ruluko', sans-serif;
+        text-align: end;
+    }
+    #firma{
+        font-family: sans-serif;
+        color: #848d97;
+        font-size: medium;
+    }
+    .signature{
+        color: #D6D5C9;
+        text-align: left;
+        font-size: medium;
+        font-family: sans-serif;
+        text-shadow:
+            0 0 4px #BF9553,
+            0 0 8px #BF9553,
+            0 0 12px #BF9553,
+            0 0 22px #B97F24,
+            0 0 40px #B97F24,
+            0 0 80px #B97F24,
+            0 0 90px #B97F24,
+            0 0 100px #B97F24;
+
+
+    }

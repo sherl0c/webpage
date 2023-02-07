@@ -1,0 +1,199 @@
+#cuerpo_f{
+    background: #0a0b0f;
+    font-family: 'Ruluko', sans-serif;
+    text-align:center;
+    font-size: xx-large;
+    color:#8f52eb;;
+}
+#titulo{
+    font-family: 'Ruluko', sans-serif;
+    font-size: 10ch;
+    color:#fff;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 5px #522888,
+    0 0 6px #522888,
+    0 0 8px #754D9D;
+
+    animation: titulo 1.5s infinite alternate;
+    font-size:xx-large;
+
+}
+@keyframes titulo {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #8f52eb,
+        0 0 80px #8f52eb,
+        0 0 90px #8f52eb,
+        0 0 100px #8f52eb,
+        0 0 150px #8f52eb;
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+
+}
+.myFiles{
+    background: #0d1017;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    height: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+#home{
+    font-family: 'Ruluko', sans-serif;
+    color:#cab187;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 5px #BF9553,
+    0 0 6px #B97F24,
+    0 0 8px #B97F24;
+    text-decoration: none;
+    animation: home 0.002s ease-in-out infinite alternate;
+    font-size:x-large;
+
+}
+@keyframes home {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #8f52eb,
+        0 0 80px #8f52eb,
+        0 0 90px #8f52eb,
+        0 0 100px #8f52eb,
+        0 0 150px #8f52eb;
+    
+
+        animation: flicker 0.002s ease-in-out infinite alternate;
+
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}
+#cuadro{
+    
+    text-align: left;
+    width: 30%;
+    margin: 7ch;
+}
+#contenedor{
+    font-family: 'Ruluko', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    background:  #0d1017;
+    border-radius: 25px;
+    box-shadow: 
+    -11px 0 4px  -10px #fff,
+    -11px 0 8px  -10px #6616cf,
+    -11px 0 7px  -10px #6017c0,
+    -11px 0 9px  -10px #522888,
+    -11px 0 10px -10px #8a4acb,
+    -11px 0 15px -10px #754D9D,
+    -11px 0 30px -10px #754D9D,
+    -11px 0 35px -10px #6d4a90,
+    -15px 0 55px -30px #6d4a90;
+    width: 150%;
+
+}
+#lado_izquerdo{
+    font-family: 'Ruluko', sans-serif;
+    text-align: left;
+    font-size: x-large;
+}
+#Ciberseguridad{
+    font-family: 'Ruluko', sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: #D6D5C9;
+} #lista1{
+    color:  #9E82BA;
+    font-family: 'Ruluko', sans-serif;
+
+}
+#programacion{
+    font-family: 'Ruluko', sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: #D6D5C9;
+} 
+#basededatos{
+    border-radius: 20px;
+}
+
+
+#lista2{
+    color:  #9E82BA;
+    font-family: 'Ruluko', sans-serif;
+
+}
+hr {
+    display:flex;
+    align-items: center;
+    width: 40%;
+    border: 5px solid #754D9D;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #522888;
+    padding: 0;
+    animation: glow 1.5s ease-in-out infinite;
+    -webkit-animation: glow 1.5s ease-in-out infinite;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}  
+  hr::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #222;
+    width: 30%;
+    margin: -2px 50px;
+    border-radius: 2px;
+    box-shadow: 0 0 3px black;
+    animation: glowMinr 2s ease-in-out;
+    -webkit-animation: glowMinor 1.5s ease-in-out infinite 
+  }
+  
+  @keyframes glow {
+    0%{box-shadow: 0 0 2px #4A247A;}
+    50%{box-shadow: 0 0 8px #977EB8;}
+    100%{box-shadow: 0 0 2px #4A247A;}
+  }
+  
+  @-webkit-keyframes glow {
+    0%{box-shadow: 0 0 2px #522888;}
+    50%{box-shadow: 0 0 8px #977EB8;}
+    100%{box-shadow: 0 0 2px #4A247A;}
+  }
+  
+  @keyframes glowMinor {
+    0%{box-shadow: 0 0 2px black;}
+    50%{box-shadow: 0 0 8px black;}
+    100%{box-shadow: 0 0 2px black;}
+  }
+  
+  @-webkit-keyframes glowMinor {
+    0%{box-shadow: 0 0 2px black;}
+    50%{box-shadow: 0 0 8px black;}
+    100%{box-shadow: 0 0 2px black;}
+  }
